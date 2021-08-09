@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sampling/Workspace/LTTng/QuickStart/Example/TPprovider.cc
+TPprovider.h
+/home/sampling/Workspace/LTTng/QuickStart/Example/TPprovider.h
+
+/home/sampling/Workspace/LTTng/QuickStart/Example/TPprovider.h
+lttng/tracepoint.h
+-
+lttng/tracepoint-event.h
+-
+
+/home/sampling/Workspace/LTTng/QuickStart/Example/application.cpp
+TPprovider.h
+/home/sampling/Workspace/LTTng/QuickStart/Example/TPprovider.h
+

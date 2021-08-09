@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/singleton.dir/TPprovider.cc.o CMakeFiles/singleton.dir/application.cpp.o  -o singleton -llttng-ust -ldl 

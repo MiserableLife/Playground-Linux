@@ -1,0 +1,14 @@
+su
+lttng create my-kernel-session --output=/tmp/my-kernel-trace
+read
+lttng list --kernel
+read
+lttng list --kernel --syscall
+read
+lttng enable-event --kernel sched_switch,sched_process_fork
+lttng enable-event --kernel --syscall open,close
+read
+lttng start
+read
+lttng destroy
+

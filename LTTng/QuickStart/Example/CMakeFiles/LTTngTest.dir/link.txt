@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/LTTngTest.dir/TPprovider.cc.o CMakeFiles/LTTngTest.dir/application.cpp.o  -o LTTngTest -llttng-ust -ldl 
