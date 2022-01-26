@@ -66,7 +66,7 @@ send_spot(ic, spot);
 			if (status == XBufferOverflow)
 			{
 				printf("reallocate to the size of: %lu\n", c + 1);
-				buff = realloc(buff, c + 1);
+				buff = (char*)realloc(buff, c + 1);
 				c = Xutf8LookupString(ic, &ev.xkey,
 						buff, c,
 						&ksym, &status);
